@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+@media screen and (max-width: 700px){
+    #main-container #latest-news-2{
+        width: 100%;
+        margin: 0px 0px 20px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    #main-container {
+        width: 96%;
+        margin: 0px 2% 0px 2%;
+        padding: 0px 0px 0px 0px;
+    }
+    body .first-container{
+        height: 20px;
+    }
+    .first-container #menu-primary li .responsive-image{
+        height: 20px;
+    }
+    #main-container #latest-news-2 div{
+        margin: 10px 2% 5px 2%;
+        font-size: 22px;
+        width: 96%;
+    }
+    #main-container #latest-news-2 p{
+        margin: 2px 2% 10px 2%;
+        font-size: 12px;
+        width: 96%;
+    }
+    #main-container #first-news{
+        margin: 0px 0px 0px 0px;
+        padding: 0px 0px 0px 0px;
+        clear: both;
+        width: 100%;
+    }
+    #main-container #top-stories{
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+        padding: 0px 0px 0px 0px;
+    }
+    #main-container #top-stories .latest-news-box{
+        width: 96%;
+        margin: 10px 2% 10px 2%;
+        padding: 0px 0px 0px 0px;
+    }
+    #main-container #six-div{
+        margin: 50px 5% 0px 0px;
+        width: 100%;
+    }
+    #main-container #six-div div{
+        box-shadow: 1px 1px 1px 1px #888888;
+        margin: 10px 0px 10px 0px;
+        float: left;
+        width: 100%;
+    }
+    #main-container #video-container{
+        margin: 5px 0px 5px 0px;
+        width: 100%;
+    }
+    #main-container #video-container #first-video{
+        width: 100%;
+        margin: 5px 0% 5px 0%;
+    }
+    #main-container #video-container #first-video video{
+        width: 100%;
+    }
+    #main-container #video-container #second-video{
+        width: 100%;
+        margin: 5px 0% 5px 0%;
+    }
+    #main-container #video-container #second-video video{
+        width: 100%;
+    }
+    #main-container #video-container #third-video{
+        width: 100%;
+        margin: 5px 0% 5px 0%;
+    }
+    #main-container #video-container #third-video video{
+        width: 100%;
+    }
+    #main-container #miamicom{
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+    #main-container #sports{
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+    #main-container #tranding-stories{
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+    #main-container #afropunk{
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+    #main-container #haiti{
+        width: 100%;
+        margin: 10px 0px 10px 0px;
+    }
+    #footer .subscription{
+        width: 90%;
+        margin: 20px 5% 0px 5%;
+    }
+    
+}
+@media screen and (min-width: 1100px){
+    #main-container {
+        width: 1100px;
+        margin: auto;
+    }
+    #footer .clear-both{
+        clear: none;
+    }
+    #footer #take-us-with-u{
+        margin: 30px 2.5% 0px 2.5%;
+        width: 20%;
+    }
+    #footer .subscription{
+        margin: 30px 2.5% 0px 2.5%;
+        width: 20%;
+    }
+    
+}
+
+body{
+    font-family: "Verdana" , Helvetica, "sans-serif";
+    font-size: 14px;
+    line-height: ;
+    color: #333333;
+    background-color: #f4f4f4;
+}
+.clear-both{
+    clear: both;
+}
+
+#menu-primary li{
+    float: left; 
+    min-height: 30px;
+}
+.first-container{
+    margin: 0 auto;
+    height: 35px;
+    background-color: whitesmoke;
+    border-bottom: 1px solid gray;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
+.responsive-image{
+    max-width: 100%;
+    height: 35px;
+}
+#miamiheraldLogo{
+    border-right: 1px solid gray;
+}
+#right-menu li{
+    float: right;
+    padding: 10px 5% 10px 20px;
+    text-decoration-color: aliceblue;
+    font-family: "Verdana";
+    font-weight: bold;
+}
+.button{
+    display: inline-block;
+    padding: 6px 14px;
+    border-radius: 3px;
+    font: 700 1rem #fff;
+    color: #fff;
+    background-color: #00223e;
+    border: 1px solid transparent;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#right-menu #login{
+    padding-top: 17px;
+}
+#date-temp{
+    clear: both;
+    font-size: 14px
+    color: #00223e;
+    padding: 20px 0px 20px 0;
+    font-weight: bold;
+    font-family: "Verdana";
+    
+}
+#date{
+    float: left;
+    padding-left: 5%;;
+}
+#temp{
+    float: right;
+    padding-right: 5%;
+}
+#main-logo{
+    padding-right: 30%;
+    padding-left: 30%;
+    width: 40%;
+}
+.section-link{
+    padding: 10px 20px 10px 20px;
+}
+#section-list{
+    border-bottom: 1px solid #00223e;
+    border-top: 2px solid #00223e;
+    margin-left: 5%;
+    margin-right: 5%;
+    width: 90%;
+}
+#section-list p{
+    color: #00223e;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+#top-stories{
+    background-color: #fff;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 30px;
+    width: 90%;
+    box-shadow: 1px 1px 1px 1px #888888;
+    overflow: hidden;
+}
+#top-stories #top-stories-int{
+    margin: auto;
+    color: aliceblue;
+    background-color: #333333;
+    width: 100px;
+    padding: 2px 4px 2px 4px;
+}
+#top-stories .latest-news{
+    overflow: hidden;
+    clear: both;
+}
+.latest-news-box{
+    float: left;
+    width: 28%;
+    color: black;
+    font-weight: 500;
+    font-size: 1.17em;
+    font-family: "Noto-Serif", serif;
+    padding-left: 2.65%;
+    padding-right: 2.65%;
+}
+#top-stories h5{
+    padding-left: 2.65%;
+    margin: 15px 0px;
+    font-weight: bold;
+    clear: both;
+}
+#top-stories a{
+    color: black;
+    font-size: 19px;
+    margin-bottom: 5px;
+}
+.day{
+    clear: both;
+    float: left;
+    margin: 10px 0px 10px 0px;
+    color: gray;
+    width: 100%;
+    font-size: 13px;
+}
+#main-news-photo{
+    max-width: 100%;
+    padding-top: 30px;
+}
+#main-news{
+    color: #01101c;
+    clear: both;
+    text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+#main-news a{
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+#main-news p{
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+}
+.responsive-image-box{
+    max-width: 100%;
+}
+#latest-news-2{
+    background-color: #fff;
+    float: left;
+    overflow: hidden;
+    margin-right: 2%;
+    margin-left: 5%;
+    margin-top: 50px;
+    margin-bottom: 200px;
+    width: 30%;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+#latest-news-2 div{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px 0px 0px 0px;
+    width: 80%;
+    margin-top: 30px;
+    clear: both;
+}
+#latest-news-2 p{
+    clear: both;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px 0px 10px 0px;
+    width: 80%;
+}
+#latest-news-2 h3{
+    text-align: center;
+}
+#main-container #latest-news-2 div .day{
+    clear: both;
+    width: 100%;
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 5px 0px;
+    font-size: 14px;
+}
+#first-news{
+    background-color: #fff;
+    margin-top: 50px;
+    margin-right: 5%;
+    width: 58%;
+    float: left;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+#first-news #link{
+    clear: both;
+    color: black;
+    margin-top: 5px;
+    margin-left: 5%;
+    font-size: 19px;
+    float: left;
+}
+#first-news p{
+    clear: both;
+    padding: 5px 0px 10px 5%;
+}
+.button-link{
+    font-size: 10px;
+    margin: 20px 0px 12px 5%;
+    float: left;
+    display: inline-block;
+    padding: 5px 5px;
+    border: 1px solid black;
+    border-radius: 3px;
+    font: 700 5px #fff;
+    color: black;
+    background-color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+#six-div{
+    float: left;
+    margin: 50px 5% 0px 0px;
+    width: 58%;
+}
+#six-div div{
+    background-color: #fff;
+    box-shadow: 1px 1px 1px 1px #888888;
+    margin-bottom: 25px;
+    float: left;
+    width: 48%;
+}
+#six-div div #link{
+    float: left;
+    clear: both;
+    margin-left: 5%;
+}
+.spaz-dx{
+    margin-right: 2%;
+}
+.spaz-sx{
+    margin-left: 2%;
+}
+#six-div div p{
+    float: left;
+    margin: 10px 0px 10px 0px;
+    color: gray;
+    padding-left: 5%;
+    font-size: 10px;
+    
+}
+#video-container{
+    overflow: hidden;
+    clear: both;
+    background-color: #333333;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#video-container #first-video{
+    width: 50%;
+    float: left;
+    margin: 0px 0% 0px 0%;
+}
+#video-container #second-video{
+    width: 25%;
+    float: left;
+    margin: 0px 0px 0px 0px;
+}
+#video-container #third-video{
+    width: 25%;
+    float: left;
+    margin: 0px 0% 0px 0%;
+}
+#video-container a{
+    color: aliceblue;
+}
+#video-container p{
+    color: aliceblue;
+}
+#miamicom{
+    background-color: #fff;
+    float: left;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px #888888;
+    width: 44%;
+    margin: 20px 0px 20px 5%;
+}
+#miamicom h3{
+    margin: auto;
+    color: aliceblue;
+    background-color: #333333;
+    width: 80px;
+    padding: 2px 4px 2px 4px;
+    font-size: 12px;
+}
+#miamicom .miamicom-box{
+    margin: 5px 5% 5px 5%;
+}
+#miamicom .miamicom-box a{
+    font-size: 16px;
+}
+#miamicom .miamicom-box p{
+    margin-bottom: 30px;
+}
+#sports{
+    background-color: #fff;
+    float: left;
+    overflow: hidden;
+    box-shadow: 1px 1px 1px 1px #888888;
+    width: 44%;
+    margin: 20px 5% 20px 2%;
+}
+#sports h3{
+    margin: auto;
+    color: aliceblue;
+    background-color: #333333;
+    width: 60px;
+    padding: 2px 4px 2px 4px;
+    font-size: 12px;
+}
+#sports .miamicom-box{
+    margin: 5px 5% 5px 5%;
+}
+#sports .miamicom-box a{
+    font-size: 16px;
+}
+#sports .miamicom-box p{
+    margin-bottom: 30px;
+}
+#tranding-stories{
+    background-color: #fff;
+    float: right;
+    overflow: hidden;
+    margin-right: 5%;
+    margin-left: 5%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    width: 44%;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+#tranding-stories div{
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 0px 0px 0px 0px;
+    width: 80%;
+    margin-top: 30px;
+    clear: both;
+}
+#tranding-stories h3{
+    text-align: center;
+}
+#tranding-stories a{
+    font-size: 16px;
+}
+#tranding-stories p{
+    margin-bottom: 30px;
+}
+#entertainment{
+    clear: both;
+    overflow: hidden;
+    background-color: #333333;
+    margin: 20px 5% 0px 5%;
+}
+#entertainment #image-box{
+    width: 65%;
+    float: left;
+}
+#entertainment #title-box{
+    color: aliceblue;
+    width: 25%;
+    font-weight: bold;
+    display: block;
+    margin: 12.4% 5% 12.4% 5%;
+    float: left;
+}
+#entertainment #title-box a{
+    color: aliceblue;
+    font-size: 100%;
+}
+#entertainment #title-box p{
+    color: aliceblue;
+    margin-top: 10px;
+    font-size: 90%;
+}
+#reference {
+    float: left;
+    clear: both;
+    color: gray;
+    margin: 10px 0px 10px 5%;
+}
+#afropunk{
+    background-color: #fff;
+    float: left;
+    overflow: hidden;
+    width: 43%;
+    margin: 30px 2% 30px 5%;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+#afropunk h4{
+    margin: auto;
+    width: 180px;
+    background: #333;
+    color: white;
+}
+#afropunk a{
+    float: left;
+    width: 80%%;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Noto-Serif", serif;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#afropunk p{
+    margin-left: 5%;
+}
+
+#haiti {
+    background-color: #fff;
+    float: right;
+    overflow: hidden;
+    width: 43%;
+    margin: 30px 5% 30px 2%;
+    box-shadow: 1px 1px 1px 1px #888888;
+}
+#haiti a{
+    float: left;
+    width: 80%%;
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    font-family: "Noto-Serif", serif;
+    padding-top: 10px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#haiti h4{
+    margin: auto;
+    width: 50px;
+    background: #333;
+    color: white;
+}
+#haiti p{
+    margin-left: 5%;
+}
+#footer{
+    margin-top: 20px;
+    background-color: #373737;
+    overflow: hidden;
+    clear: both;
+    color: white;
+}
+#take-us-with-u{
+    float: left;
+    width: 50%;
+    margin: 2%;
+}
+#footer img{
+    height: 40px;
+}
+#footer h3{
+    margin: 10px;
+}
+#footer p{
+    margin: 10px;
+}
+#footer #Hlogo{
+    margin: 10px;
+}
+#footer #take-us-with-u div a{
+    text-align: center;
+    color: white;
+    margin: auto;
+}
+.footer-logo{
+    margin: 10px;
+}
+.subscription{
+    float: left;
+    width: 30%;
+    margin: 20px 1.65% 20px 1.65%;
+}
+.subscription a{
+    clear: both;
+    float: left;
+    margin: 2%;
+    color: white;
+}
